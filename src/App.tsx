@@ -1,9 +1,6 @@
-import React from 'react'
+import React from "react";
+import RootPage from "./pages";
 
-const App: React.FC = () => {
-  return (
-    <div>App</div>
-  )
-}
+const App: React.FC = () => <RootPage />;
 
-export default App
+export default App;
